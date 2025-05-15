@@ -65,12 +65,12 @@ export function Header() {
         <Link href="/" className="flex items-center">
           {/* Using next/image for the logo */}
           <Image
-            src="/media/bamboo-noir-logo.PNG" // Updated path with uppercase PNG
+            src="/bamboo-noir-logo.png"
             alt="BAMBOO NOIR DESIGN Logo"
-            width={60} 
-            height={60} 
-            className="object-contain" 
-            priority 
+            width={60}
+            height={60}
+            className="object-contain"
+            priority
             data-ai-hint="company logo brand"
           />
         </Link>
