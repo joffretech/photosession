@@ -63,7 +63,7 @@ export function Header() {
       <div className="container flex h-16 max-w-screen-2xl items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <Camera className="h-6 w-6 text-primary" /> {/* Changed icon to Camera */}
-          <span className="font-bold text-xl">Your Brand Name</span> {/* Placeholder for user's brand */}
+          <span className="font-bold text-xl">BAMBOO NOIR LLC</span>
         </Link>
         
         {/* Desktop Navigation */}

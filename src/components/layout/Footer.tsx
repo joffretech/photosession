@@ -8,7 +8,7 @@ export function Footer() {
         <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
           <Camera className="h-6 w-6 text-primary" /> {/* Changed icon */}
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-            &copy; {currentYear} Your Brand Name. All rights reserved. {/* Placeholder */}
+            &copy; {currentYear} BAMBOO NOIR LLC. All rights reserved.
           </p>
         </div>
         <div className="flex items-center space-x-4">

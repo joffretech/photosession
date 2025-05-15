@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Your Name | Photo & Video Services', // Updated Title
-  description: 'Professional photography and videography services. Book your session today.', // Updated Description
+  title: 'BAMBOO NOIR LLC | Photo & Video Services', // Updated Title
+  description: 'Professional photography, videography, and digital marketing services. Book your session today.', // Updated Description
 };
 
 export default function RootLayout({

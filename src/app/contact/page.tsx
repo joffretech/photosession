@@ -19,7 +19,7 @@ export default function ContactPage() {
           <div>
             <h2 className="text-2xl font-semibold mb-4 text-primary">Contact Information</h2>
             <p className="text-muted-foreground mb-6">
-              Our team is available to discuss your photography and videography needs.
+              Our team is available to discuss your photography, videography, and digital marketing needs.
             </p>
           </div>
           <div className="space-y-4">
@@ -27,8 +27,8 @@ export default function ContactPage() {
               <Mail className="h-6 w-6 text-primary mt-1" />
               <div>
                 <h3 className="font-semibold text-primary-foreground">Email</h3>
-                <a href="mailto:hello@yourbrand.com" className="text-muted-foreground hover:text-primary transition-colors">
-                  hello@yourbrand.com {/* Placeholder Email */}
+                <a href="mailto:bamboonoirdesign@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                  bamboonoirdesign@gmail.com
                 </a>
               </div>
             </div>
@@ -36,17 +36,17 @@ export default function ContactPage() {
               <Phone className="h-6 w-6 text-primary mt-1" />
               <div>
                 <h3 className="font-semibold text-primary-foreground">Phone</h3>
-                <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors">
-                  +1 (234) 567-890 {/* Placeholder Phone */}
+                <a href="tel:4706526060" className="text-muted-foreground hover:text-primary transition-colors">
+                  (470) 652-6060
                 </a>
               </div>
             </div>
             <div className="flex items-start space-x-3">
               <MapPin className="h-6 w-6 text-primary mt-1" />
               <div>
-                <h3 className="font-semibold text-primary-foreground">Studio</h3>
+                <h3 className="font-semibold text-primary-foreground">Location</h3>
                 <p className="text-muted-foreground">
-                  123 Creative Ave, Photo City, PC 12345 {/* Placeholder Address */}
+                  Atlanta, GA
                 </p>
               </div>
             </div>
