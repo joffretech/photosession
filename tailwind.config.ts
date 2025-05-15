@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 export default {
-    darkMode: ["class"],
+    darkMode: ["class"], // Keep this if user might want to toggle later, though current design is dark by default.
     content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,6 +9,10 @@ export default {
   ],
   theme: {
   	extend: {
+      fontFamily: {
+        sans: ['var(--font-geist-sans)', 'sans-serif'],
+        mono: ['var(--font-geist-mono)', 'monospace'],
+      },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -82,11 +86,16 @@ export default {
   				to: {
   					height: '0'
   				}
-  			}
+  			},
+        'fade-in-up': {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
   		},
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
-  			'accordion-up': 'accordion-up 0.2s ease-out'
+  			'accordion-up': 'accordion-up 0.2s ease-out',
+        'fade-in-up': 'fade-in-up 0.5s ease-out forwards',
   		}
   	}
   },
