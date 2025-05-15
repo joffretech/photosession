@@ -65,7 +65,7 @@ export function Header() {
           {/* Wrap content in a single DOM element for the Link component */}
           <div className="flex items-center space-x-2">
             <Camera className="h-6 w-6 text-primary" />
-            <span className="font-bold text-xl">BAMBOO NOIR LLC</span>
+            <span className="font-bold text-xl">BAMBOO NOIR DESIGN</span>
           </div>
         </Link>
         
