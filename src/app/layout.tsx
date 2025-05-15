@@ -1,3 +1,4 @@
+
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
@@ -16,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'BAMBOO NOIR DESIGN', // Updated Title
-  description: 'Professional photography, videography, and digital marketing services. Book your session today.', // Updated Description
+  title: 'BAMBOO NOIR DESIGN', // Ensure this is the active title
+  description: 'Professional photography, videography, and digital marketing services. Book your session today.',
 };
 
 export default function RootLayout({
