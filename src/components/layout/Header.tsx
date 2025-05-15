@@ -1,7 +1,8 @@
 
 "use client";
 import Link from 'next/link';
-import { Menu, Camera } from 'lucide-react'; // Using Camera icon
+import Image from 'next/image'; // Added Image import
+import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
 import { usePathname } from 'next/navigation';
@@ -60,13 +61,19 @@ const NavLink: FC<NavLinkProps> = ({ href, label, isMobile, onClose }) => {
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 max-w-screen-2xl items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
-          {/* Wrap content in a single DOM element for the Link component */}
-          <div className="flex items-center space-x-2">
-            <Camera className="h-6 w-6 text-primary" />
-            <span className="font-bold text-xl">BAMBOO NOIR DESIGN</span>
-          </div>
+      <div className="container flex h-20 max-w-screen-2xl items-center justify-between"> {/* Increased height for logo */}
+        <Link href="/" className="flex items-center">
+          {/* Using next/image for the logo */}
+          <Image
+            // Replace with your actual logo path, e.g., /logo.png
+            src="https://placehold.co/200x60.png?text=BAMBOO+NOIR+DESIGN" 
+            alt="BAMBOO NOIR DESIGN Logo"
+            width={180} // Adjust width as needed
+            height={54} // Adjust height as needed, maintaining aspect ratio
+            className="object-contain" // Ensures logo scales nicely
+            priority // Load logo quickly
+            data-ai-hint="company logo brand"
+          />
         </Link>
         
         {/* Desktop Navigation */}
