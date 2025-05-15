@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Bamboo Noir Showcase',
-  description: 'A showcase of design excellence by Bamboo Noir agency.',
+  title: 'Your Name | Photo & Video Services', // Updated Title
+  description: 'Professional photography and videography services. Book your session today.', // Updated Description
 };
 
 export default function RootLayout({

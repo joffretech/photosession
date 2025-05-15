@@ -9,7 +9,7 @@ export default function ContactPage() {
           Get in Touch
         </h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Have a project in mind or just want to say hello? We&apos;d love to hear from you. Fill out the form below or reach out via our contact details.
+          Have questions about our services or a custom project in mind? We&apos;d love to hear from you. Fill out the form below or reach out via our contact details.
         </p>
       </section>
 
@@ -19,7 +19,7 @@ export default function ContactPage() {
           <div>
             <h2 className="text-2xl font-semibold mb-4 text-primary">Contact Information</h2>
             <p className="text-muted-foreground mb-6">
-              Our team is available to discuss your project needs.
+              Our team is available to discuss your photography and videography needs.
             </p>
           </div>
           <div className="space-y-4">
@@ -27,8 +27,8 @@ export default function ContactPage() {
               <Mail className="h-6 w-6 text-primary mt-1" />
               <div>
                 <h3 className="font-semibold text-primary-foreground">Email</h3>
-                <a href="mailto:hello@bamboonoir.design" className="text-muted-foreground hover:text-primary transition-colors">
-                  hello@bamboonoir.design
+                <a href="mailto:hello@yourbrand.com" className="text-muted-foreground hover:text-primary transition-colors">
+                  hello@yourbrand.com {/* Placeholder Email */}
                 </a>
               </div>
             </div>
@@ -37,16 +37,16 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-semibold text-primary-foreground">Phone</h3>
                 <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors">
-                  +1 (234) 567-890
+                  +1 (234) 567-890 {/* Placeholder Phone */}
                 </a>
               </div>
             </div>
             <div className="flex items-start space-x-3">
               <MapPin className="h-6 w-6 text-primary mt-1" />
               <div>
-                <h3 className="font-semibold text-primary-foreground">Office</h3>
+                <h3 className="font-semibold text-primary-foreground">Studio</h3>
                 <p className="text-muted-foreground">
-                  123 Design Street, Innovation City, DC 12345
+                  123 Creative Ave, Photo City, PC 12345 {/* Placeholder Address */}
                 </p>
               </div>
             </div>

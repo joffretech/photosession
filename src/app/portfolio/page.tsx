@@ -4,70 +4,70 @@ import type { Project } from '@/types';
 const projectsData: Project[] = [
   {
     id: '1',
-    title: 'Luxe Retail E-commerce',
-    description: 'A sophisticated online platform for a luxury fashion brand, focusing on elegant UI and seamless user experience.',
-    longDescription: 'Developed a full-featured e-commerce website for a high-end fashion retailer. Implemented custom product pages, a streamlined checkout process, and integrated with various payment gateways. The design emphasizes minimalist aesthetics and high-quality imagery to reflect the brand\'s luxury status.',
+    title: 'Urban Elegance Wedding Shoot',
+    description: 'Capturing the magic of a modern city wedding with a blend of candid moments and artistic portraits.',
+    longDescription: 'A full-day wedding photography service in downtown. We focused on capturing the couple\'s unique style against the urban backdrop, from pre-ceremony preparations to the lively reception. Delivered over 500 high-resolution edited images and a curated online gallery.',
     imageUrl: 'https://placehold.co/600x400.png',
-    tags: ['E-commerce', 'UX/UI', 'Web Development', 'Luxury'],
-    client: 'Éclat Paris',
-    date: 'June 2023',
+    tags: ['Wedding Photography', 'Urban', 'Portrait', 'Events'],
+    client: 'The Jacksons',
+    date: 'October 2023',
     liveUrl: '#',
-    dataAiHint: 'fashion website'
+    dataAiHint: 'wedding couple city'
   },
   {
     id: '2',
-    title: 'Tech Startup Branding',
-    description: 'Complete brand identity and website for an innovative AI startup, conveying cutting-edge technology with a human touch.',
-    longDescription: 'Crafted a comprehensive brand identity, including logo, color palette, typography, and brand guidelines. Designed and developed a responsive website to showcase their AI solutions, focusing on clear communication of complex concepts and lead generation.',
+    title: 'Startup Launch Promotional Video',
+    description: 'Dynamic promotional video for a new tech startup, showcasing their innovative product and team culture.',
+    longDescription: 'Produced a 2-minute promotional video including interviews, product demonstrations, and b-roll footage. Our team handled scripting, filming, and post-production, delivering a polished video for their website and social media campaigns.',
     imageUrl: 'https://placehold.co/600x400.png',
-    tags: ['Branding', 'Web Design', 'AI', 'Startup'],
-    client: 'Innovate AI',
-    date: 'January 2024',
-    dataAiHint: 'tech startup'
+    tags: ['Videography', 'Corporate', 'Promo Video', 'Tech'],
+    client: 'Innovate Solutions Ltd.',
+    date: 'February 2024',
+    dataAiHint: 'tech startup office'
   },
   {
     id: '3',
-    title: 'Artisan Bakery Mobile App',
-    description: 'A delightful mobile app for a local artisan bakery, enabling online ordering and loyalty rewards.',
-    longDescription: 'Designed and developed a cross-platform mobile application allowing customers to browse products, place orders for pickup or delivery, and participate in a loyalty program. The UI is warm and inviting, reflecting the bakery\'s brand character.',
+    title: 'Family Lifestyle Photography',
+    description: 'A relaxed and fun outdoor family photoshoot capturing natural interactions and joyful moments.',
+    longDescription: 'An on-location lifestyle session for a family of four at a local park. The goal was to capture authentic moments in a natural setting. The package included 75 edited digital images and a private online gallery for sharing.',
     imageUrl: 'https://placehold.co/600x400.png',
-    tags: ['Mobile App', 'UX/UI', 'Food & Beverage', 'Local Business'],
-    client: 'The Flour Pot',
+    tags: ['Family Photography', 'Lifestyle', 'Outdoor', 'Portraits'],
+    client: 'The Miller Family',
     date: 'September 2023',
-    dataAiHint: 'bakery app'
+    dataAiHint: 'family park fun'
   },
   {
     id: '4',
-    title: 'Non-Profit Organization Redesign',
-    description: 'Website redesign for a global environmental non-profit, aimed at increasing engagement and donations.',
-    longDescription: 'Redesigned the NPO\'s website to be more visually compelling and user-friendly. Focused on storytelling through impactful imagery and clear calls to action to drive donations and volunteer sign-ups. Ensured WCAG accessibility compliance.',
+    title: 'Musician Spotlight Video',
+    description: 'A short, artistic video piece highlighting a local musician\'s talent and performance style.',
+    longDescription: 'This project involved filming a live performance and an interview segment with a solo acoustic artist. The final output was a 3-minute cinematic video designed to showcase their music and personality for promotional use.',
     imageUrl: 'https://placehold.co/600x400.png',
-    tags: ['Web Design', 'Non-Profit', 'Advocacy', 'Accessibility'],
-    client: 'GreenSphere Org',
-    date: 'March 2024',
-    dataAiHint: 'nature website'
+    tags: ['Videography', 'Music Video', 'Artistic', 'Performance'],
+    client: 'Lena Rose Music',
+    date: 'April 2024',
+    dataAiHint: 'musician performance stage'
   },
    {
     id: '5',
-    title: 'Boutique Hotel Website',
-    description: 'Elegant website for a boutique hotel, showcasing its unique charm and amenities, with an integrated booking system.',
-    longDescription: 'Created a visually rich website for a luxury boutique hotel. The design highlights the hotel\'s unique features, rooms, and local attractions. Integrated a seamless online booking engine and focused on mobile-first responsiveness.',
+    title: 'Product Photography for E-commerce',
+    description: 'Clean and professional product shots for an online boutique, enhancing their product listings.',
+    longDescription: 'Provided high-quality product photography for a range of handcrafted jewelry. Each item was shot on a clean background with consistent lighting to ensure a professional and appealing look for their e-commerce store.',
     imageUrl: 'https://placehold.co/600x400.png',
-    tags: ['Web Design', 'Hospitality', 'Booking System', 'Travel'],
-    client: 'The Velvet Key',
-    date: 'November 2023',
-    dataAiHint: 'hotel interior'
+    tags: ['Product Photography', 'E-commerce', 'Commercial', 'Studio'],
+    client: 'Artisan Gems Co.',
+    date: 'December 2023',
+    dataAiHint: 'jewelry product shot'
   },
   {
     id: '6',
-    title: 'Corporate Identity Overhaul',
-    description: 'Complete corporate identity refresh for an established financial services firm, modernizing its image.',
-    longDescription: 'Led a full corporate identity overhaul, including a new logo, brand messaging, and all print and digital collateral. The goal was to modernize the brand while retaining its core values of trust and expertise. Developed extensive brand guidelines for consistent implementation.',
+    title: 'Corporate Event Highlights Video',
+    description: 'Comprehensive video coverage of a multi-day corporate conference, delivering a compelling highlights reel.',
+    longDescription: 'Filmed keynotes, breakout sessions, and networking events at a 2-day corporate conference. Produced a 5-minute highlights video capturing the energy and key takeaways of the event for internal and external promotion.',
     imageUrl: 'https://placehold.co/600x400.png',
-    tags: ['Branding', 'Corporate ID', 'Finance', 'Graphic Design'],
-    client: 'Sterling Group',
-    date: 'July 2023',
-    dataAiHint: 'modern office'
+    tags: ['Event Videography', 'Corporate', 'Conference', 'Highlights'],
+    client: 'Future Forward Inc.',
+    date: 'June 2023',
+    dataAiHint: 'conference event business'
   },
 ];
 
@@ -79,7 +79,7 @@ export default function PortfolioPage() {
           Our Creative Portfolio
         </h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Explore a selection of our finest work. We craft digital experiences that blend aesthetics with functionality, delivering results that speak for themselves.
+          Explore a selection of our photography and videography projects. We are passionate about creating visuals that tell stories and capture essence.
         </p>
       </section>
 
