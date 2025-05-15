@@ -1,6 +1,8 @@
+
 import type { ServicePackage } from '@/types';
 import { ServicePackageCard } from '@/components/services/ServicePackageCard';
 import { Camera, Video } from 'lucide-react';
+import Link from 'next/link'; // Added this line
 
 const photoPackagesData: ServicePackage[] = [
   {
