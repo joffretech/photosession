@@ -65,7 +65,7 @@ export function Header() {
         <Link href="/" className="flex items-center">
           {/* Using next/image for the logo */}
           <Image
-            src="/bamboo-noir-logo.png" // Make sure this path is correct if you named your file differently
+            src="/bamboo-noir-logo.png" // Make sure this path is correct: public/bamboo-noir-logo.png
             alt="BAMBOO NOIR DESIGN Logo"
             width={60} // Adjusted width for the new logo
             height={60} // Adjusted height for the new logo (assuming square aspect ratio)
