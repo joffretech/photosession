@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Camera, Video, Sparkles } from 'lucide-react';
+import { ArrowRight, Camera, Video, Sparkles, Briefcase } from 'lucide-react'; // Added Briefcase
 
 export default function HomePage() {
   return (
@@ -16,7 +16,7 @@ export default function HomePage() {
                   Capture Your Moments, Tell Your Story
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                  Professional photography and videography services tailored to bring your vision to life. From stunning portraits to captivating event coverage, we create memories that last.
+                  Professional photography, videography, and digital marketing services tailored to bring your vision to life. From stunning visuals to impactful online presence, we help you succeed.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -52,11 +52,11 @@ export default function HomePage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">What We Offer</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                We provide a range of high-quality photography and videography packages designed to meet your specific needs. Whether it's a personal milestone or a corporate event, we've got you covered.
+                We provide a range of high-quality photography, videography, and digital marketing packages designed to meet your specific needs. Whether it's a personal milestone, a corporate event, or growing your brand online, we've got you covered.
               </p>
             </div>
           </div>
-          <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 lg:mt-12">
+          <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-2 xl:grid-cols-4 lg:mt-12"> {/* Adjusted grid for 4 items */}
             <div className="grid gap-1 p-4 rounded-md hover:bg-background transition-colors">
               <div className="flex items-center gap-2">
                 <Camera className="h-6 w-6 text-primary" />
@@ -77,11 +77,20 @@ export default function HomePage() {
             </div>
             <div className="grid gap-1 p-4 rounded-md hover:bg-background transition-colors">
               <div className="flex items-center gap-2">
+                <Briefcase className="h-6 w-6 text-primary" />
+                <h3 className="text-lg font-bold text-primary">Digital Marketing</h3>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Website/landing page creation, logo & graphic design, AI implementation, and cybersecurity solutions.
+              </p>
+            </div>
+            <div className="grid gap-1 p-4 rounded-md hover:bg-background transition-colors">
+              <div className="flex items-center gap-2">
                 <Sparkles className="h-6 w-6 text-primary" />
                 <h3 className="text-lg font-bold text-primary">Custom Packages</h3>
               </div>
               <p className="text-sm text-muted-foreground">
-                Tailored solutions to perfectly match your unique project requirements.
+                Tailored solutions to perfectly match your unique project requirements across all our services.
               </p>
             </div>
           </div>
