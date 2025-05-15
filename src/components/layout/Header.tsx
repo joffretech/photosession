@@ -61,11 +61,11 @@ const NavLink: FC<NavLinkProps> = ({ href, label, isMobile, onClose }) => {
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-20 max-w-screen-2xl items-center justify-between">
+      <div className="container flex h-20 max-w-screen-2xl items-center justify-between"> {/* Increased height slightly if logo is larger */}
         <Link href="/" className="flex items-center">
           {/* Using next/image for the logo */}
           <Image
-            src="/bamboo-noir-logo.png" // Make sure this path is correct: public/bamboo-noir-logo.png
+            src="/bamboo-noir-logo.png" // Ensure this path is correct: public/bamboo-noir-logo.png
             alt="BAMBOO NOIR DESIGN Logo"
             width={60} // Adjusted width for the new logo
             height={60} // Adjusted height for the new logo (assuming square aspect ratio)
