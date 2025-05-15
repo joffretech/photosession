@@ -1,7 +1,7 @@
 
 "use client";
 import Link from 'next/link';
-import { Menu, Leaf, Camera } from 'lucide-react'; // Added Camera icon
+import { Menu, Camera } from 'lucide-react'; // Using Camera icon
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
 import { usePathname } from 'next/navigation';
@@ -10,9 +10,9 @@ import type { FC } from 'react';
 
 const navItems = [
   { href: '/', label: 'Home' },
-  { href: '/services', label: 'Services' }, // New: Services page
+  { href: '/services', label: 'Services' },
   { href: '/portfolio', label: 'Portfolio' },
-  { href: '/book', label: 'Book Now' },     // New: Booking page
+  { href: '/book', label: 'Book Now' },
   { href: '/contact', label: 'Contact' },
 ];
 
@@ -62,7 +62,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-screen-2xl items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
-          <Camera className="h-6 w-6 text-primary" /> {/* Changed icon to Camera */}
+          <Camera className="h-6 w-6 text-primary" />
           <span className="font-bold text-xl">BAMBOO NOIR LLC</span>
         </Link>
         
