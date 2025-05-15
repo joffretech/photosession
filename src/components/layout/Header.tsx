@@ -1,7 +1,7 @@
 
 "use client";
 import Link from 'next/link';
-import Image from 'next/image'; // Added Image import
+import Image from 'next/image';
 import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
@@ -61,17 +61,16 @@ const NavLink: FC<NavLinkProps> = ({ href, label, isMobile, onClose }) => {
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-20 max-w-screen-2xl items-center justify-between"> {/* Increased height for logo */}
+      <div className="container flex h-20 max-w-screen-2xl items-center justify-between">
         <Link href="/" className="flex items-center">
           {/* Using next/image for the logo */}
           <Image
-            // Replace with your actual logo path, e.g., /logo.png
-            src="https://placehold.co/200x60.png?text=BAMBOO+NOIR+DESIGN" 
+            src="/bamboo-noir-logo.png" // Make sure this path is correct if you named your file differently
             alt="BAMBOO NOIR DESIGN Logo"
-            width={180} // Adjust width as needed
-            height={54} // Adjust height as needed, maintaining aspect ratio
-            className="object-contain" // Ensures logo scales nicely
-            priority // Load logo quickly
+            width={60} // Adjusted width for the new logo
+            height={60} // Adjusted height for the new logo (assuming square aspect ratio)
+            className="object-contain" 
+            priority 
             data-ai-hint="company logo brand"
           />
         </Link>
