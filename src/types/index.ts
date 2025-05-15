@@ -14,11 +14,11 @@ export interface Project {
 
 export interface ServicePackage {
   id: string;
-  type: 'photo' | 'video';
+  type: 'photo' | 'video' | 'digital'; // Added 'digital' type
   name: string;
   description: string;
   details: string[];
   price: string;
   imageUrl: string;
-  dataAiHint: string; // e.g., "portrait session", "event video"
+  dataAiHint: string; // e.g., "portrait session", "event video", "website design"
 }

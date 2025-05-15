@@ -1,8 +1,8 @@
 
 import type { ServicePackage } from '@/types';
 import { ServicePackageCard } from '@/components/services/ServicePackageCard';
-import { Camera, Video } from 'lucide-react';
-import Link from 'next/link'; // Added this line
+import { Camera, Video, Briefcase } from 'lucide-react'; // Added Briefcase
+import Link from 'next/link';
 
 const photoPackagesData: ServicePackage[] = [
   {
@@ -101,15 +101,64 @@ const videoPackagesData: ServicePackage[] = [
   },
 ];
 
+const digitalMarketingPackagesData: ServicePackage[] = [
+  {
+    id: 'dm-landing-page',
+    type: 'digital',
+    name: 'Landing Page Design',
+    description: 'A high-converting landing page to showcase your product or service.',
+    details: [
+      'Custom design (up to 3 sections)',
+      'Responsive development',
+      'Contact form integration',
+      'Basic SEO setup',
+    ],
+    price: '$700',
+    imageUrl: 'https://placehold.co/600x400.png',
+    dataAiHint: 'website landing page'
+  },
+  {
+    id: 'dm-logo-branding',
+    type: 'digital',
+    name: 'Logo & Basic Branding',
+    description: 'Create a unique visual identity for your brand.',
+    details: [
+      '3 logo concepts',
+      '2 rounds of revisions',
+      'Color palette & typography selection',
+      'Final logo files (vector & raster)',
+    ],
+    price: '$400',
+    imageUrl: 'https://placehold.co/600x400.png',
+    dataAiHint: 'logo design brand'
+  },
+  {
+    id: 'dm-ai-consultation',
+    type: 'digital',
+    name: 'AI Implementation Consultation',
+    description: 'Explore how AI can optimize your business processes.',
+    details: [
+      '2-hour consultation session',
+      'Assessment of current workflows',
+      'Identification of AI opportunities',
+      'Basic roadmap for implementation',
+    ],
+    price: '$300',
+    imageUrl: 'https://placehold.co/600x400.png',
+    dataAiHint: 'ai technology business'
+  },
+];
+
+
 export default function ServicesPage() {
   return (
     <div className="space-y-16">
       <section className="text-center space-y-4">
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-primary/80">
-          Our Photography & Videography Services
+          Our Comprehensive Services
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-          We offer a variety of packages to suit your needs, from personal portraits to comprehensive event coverage.
+          We offer a variety of packages across photography, videography, and digital marketing to suit your needs.
           Each package is designed to deliver high-quality results and a seamless experience.
         </p>
       </section>
@@ -133,6 +182,18 @@ export default function ServicesPage() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {videoPackagesData.map((pkg) => (
+            <ServicePackageCard key={pkg.id} packageInfo={pkg} />
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <div className="flex items-center mb-8">
+          <Briefcase className="h-8 w-8 text-primary mr-3" />
+          <h2 className="text-3xl font-semibold text-primary-foreground">Digital Marketing Packages</h2>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {digitalMarketingPackagesData.map((pkg) => (
             <ServicePackageCard key={pkg.id} packageInfo={pkg} />
           ))}
         </div>

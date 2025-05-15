@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useForm } from "react-hook-form";
@@ -27,6 +28,10 @@ const servicePackages = [
   { id: 'video-highlight', name: 'Highlight Reel ($500)' },
   { id: 'video-event', name: 'Event Coverage Basic ($1000)' },
   { id: 'video-promo', name: 'Promotional Video ($1500)' },
+  // Digital Marketing Packages
+  { id: 'dm-landing-page', name: 'Landing Page Design ($700)' },
+  { id: 'dm-logo-branding', name: 'Logo & Basic Branding ($400)' },
+  { id: 'dm-ai-consultation', name: 'AI Implementation Consultation ($300)' },
   { id: 'custom-request', name: 'Custom Request / Not Sure Yet' },
 ];
 
