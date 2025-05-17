@@ -15,6 +15,8 @@ const navItems = [
   { href: '/portfolio', label: 'Portfolio' },
   { href: '/book', label: 'Book Now' },
   { href: '/contact', label: 'Contact' },
+  { href: '/shop', label: 'Shop' },
+  { href: '/fine-art', label: 'Fine Art' },
 ];
 
 interface NavLinkProps {
@@ -60,21 +62,21 @@ const NavLink: FC<NavLinkProps> = ({ href, label, isMobile, onClose }) => {
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-[var(--bamboo-noir-green)]/95 backdrop-blur supports-[backdrop-filter]:bg-[var(--bamboo-noir-green)]/60">
       <div className="container flex h-20 max-w-screen-2xl items-center justify-between">
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center md:justify-start justify-center">
           {/* Using next/image for the logo */}
           <Image
-            src="https://i.ibb.co/4V00JzN/bamboo-noir-logo.png"
+            src="/bamboo-noir-logo.PNG"
             alt="BAMBOO NOIR DESIGN Logo"
-            width={60}
-            height={60}
-            className="object-contain"
+            width={150}
+            height={150}
+            className="object-contain animate-pulse"
             priority
             data-ai-hint="company logo brand"
           />
         </Link>
-        
+
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
           {navItems.map((item) => (

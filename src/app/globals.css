@@ -25,6 +25,9 @@
     --ring: 40 90% 55%; /* Gold for focus rings */
     --radius: 0.5rem;
 
+    --bamboo-noir-green: #2E4E48;
+    --bamboo-noir-gold: #B8860B;
+
     /* Chart colors adjusted for dark theme, though not explicitly used in this proposal, good to keep consistent */
     --chart-1: 40 90% 55%; /* Gold */
     --chart-2: 35 85% 65%; /* Lighter Gold */

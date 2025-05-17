@@ -22,6 +22,24 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'http',
+        hostname: 'localhost',
+        port: '9002',
+        pathname: '/bamboo-noir-logo.PNG',
+      },
+      {
+        protocol: 'http',
+        hostname: 'localhost',
+        port: '9002',
+        pathname: '/products/**',
+      },
+      {
+        protocol: 'http',
+        hostname: 'localhost',
+        port: '9002',
+        pathname: '/fine-art/**',
+      },
     ],
   },
 };
