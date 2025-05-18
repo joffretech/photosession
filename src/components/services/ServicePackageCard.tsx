@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import type { ServicePackage } from '@/types';
 import { Button } from '@/components/ui/button';
@@ -13,11 +12,9 @@ export function ServicePackageCard({ packageInfo }: ServicePackageCardProps) {
   return (
     <Card className="flex flex-col overflow-hidden shadow-xl hover:shadow-primary/20 transition-shadow duration-300 h-full">
       <CardHeader className="p-0">
-        <Image
+        <img
           src={packageInfo.imageUrl}
           alt={packageInfo.name}
-          width={600}
-          height={300} // Adjusted for a more rectangular package image
           className="w-full h-48 object-cover" // Fixed height for consistency
           data-ai-hint={packageInfo.dataAiHint}
         />

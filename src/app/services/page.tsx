@@ -17,7 +17,7 @@ const photoPackagesData: ServicePackage[] = [
       'Online gallery for viewing and sharing',
     ],
     price: '$250',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/products/upscaleart/IMG_0607.PNG',
     dataAiHint: 'portrait photography session'
   },
   {
@@ -33,7 +33,7 @@ const photoPackagesData: ServicePackage[] = [
       '1 8x10 print',
     ],
     price: '$450',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/products/upscaleart/IMG_0608.PNG',
     dataAiHint: 'family lifestyle photo'
   },
   {
@@ -48,7 +48,7 @@ const photoPackagesData: ServicePackage[] = [
       'Short slideshow video (music included)',
     ],
     price: '$900',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/products/upscaleart/IMG_0614.JPG',
     dataAiHint: 'event photography coverage'
   },
 ];
@@ -66,7 +66,7 @@ const videoPackagesData: ServicePackage[] = [
       'Digital delivery',
     ],
     price: '$500',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/products/upscaleart/IMG_0619.JPG',
     dataAiHint: 'video highlight reel'
   },
   {
@@ -81,7 +81,7 @@ const videoPackagesData: ServicePackage[] = [
       'Licensed music',
     ],
     price: '$1000',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/products/upscaleart/IMG_0620.JPG',
     dataAiHint: 'event videography film'
   },
   {
@@ -96,7 +96,7 @@ const videoPackagesData: ServicePackage[] = [
       'Basic motion graphics & licensed music',
     ],
     price: '$1500',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/products/upscaleart/IMG_1353.JPG',
     dataAiHint: 'business promotional video'
   },
 ];
@@ -114,7 +114,7 @@ const digitalMarketingPackagesData: ServicePackage[] = [
       'Basic SEO setup',
     ],
     price: '$700',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/products/upscaleart/IMG_1354.JPG',
     dataAiHint: 'website landing page'
   },
   {
@@ -129,7 +129,7 @@ const digitalMarketingPackagesData: ServicePackage[] = [
       'Final logo files (vector & raster)',
     ],
     price: '$400',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/products/upscaleart/IMG_1355.JPG',
     dataAiHint: 'logo design brand'
   },
   {
@@ -144,7 +144,7 @@ const digitalMarketingPackagesData: ServicePackage[] = [
       'Basic roadmap for implementation',
     ],
     price: '$300',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/products/upscaleart/IMG_1356.JPG',
     dataAiHint: 'ai technology business'
   },
 ];

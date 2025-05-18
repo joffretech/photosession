@@ -9,13 +9,15 @@ import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import type { FC } from 'react';
 
+
+
+
 const navItems = [
   { href: '/', label: 'Home' },
   { href: '/services', label: 'Services' },
   { href: '/portfolio', label: 'Portfolio' },
   { href: '/book', label: 'Book Now' },
   { href: '/contact', label: 'Contact' },
-  { href: '/shop', label: 'Shop' },
   { href: '/fine-art', label: 'Fine Art' },
 ];
 
